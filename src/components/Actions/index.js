@@ -16,36 +16,36 @@ export default function Actions() {
       horizontal={true}
       showsHorizontalScrollIndicator={false}
       contentContainerStyle={{
-        justifyContent: 'space-between',
+        justifyContent: 'space-between'
       }}
     >
       <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-          <AntDesign name="addfolder" size={26} color="#000" />
+          <AntDesign name="user" size={26} color="#000" />
         </View>
         <Text style={styles.labelButton}>Conta</Text>
       </TouchableOpacity>
       <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-          <AntDesign name="tagso" size={26} color="#000" />
+          <AntDesign name="calendar" size={26} color="#000" />
         </View>
         <Text style={styles.labelButton}>Agenda</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-          <AntDesign name="creditcard" size={26} color="#000" />
+          <AntDesign name="barcode" size={26} color="#000" />
         </View>
         <Text style={styles.labelButton}>Boletos</Text>
       </TouchableOpacity>
 
       <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
-          <AntDesign name="barcode" size={26} color="#000" />
+          <AntDesign name="addusergroup" size={26} color="#000" />
         </View>
         <Text style={styles.labelButton}>Clientes</Text>
       </TouchableOpacity>
-    
+
       <TouchableOpacity style={styles.actionButton}>
         <View style={styles.areaButton}>
           <AntDesign name="customerservice" size={24} color="#000" />
@@ -67,12 +67,12 @@ const styles = StyleSheet.create({
   container: {
     maxHeight: 84,
     marginBottom: 14,
-    marginTop: 18,
+    marginTop: 18
   },
   actionButton: {
     alignItems: 'center',
     marginHorizontal: 6,
-    width: 90,
+    width: 90
   },
   areaButton: {
     backgroundColor: '#ecf0f1',
@@ -86,6 +86,6 @@ const styles = StyleSheet.create({
   labelButton: {
     marginTop: 4,
     textAlign: 'center',
-    fontWeight: 'bold',
+    fontWeight: 'bold'
   }
 })

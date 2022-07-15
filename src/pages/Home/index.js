@@ -36,12 +36,12 @@ export default function Home() {
       vertical={true}
       showsVerticalScrollIndicator={false}
     >
-      <Header name="Fernando Hudson Moyoga Filho" />
+      <Header name="Fernando Hudson" />
 
       <Balance saldo="9.250,90" gastos="-527,80" />
       <Actions></Actions>
-        <Text style={styles.title}>Eventos Próximos</Text>
-        <Lembrets></Lembrets>
+      <Text style={styles.title}>Eventos Próximos</Text>
+      <Lembrets></Lembrets>
 
       <Text style={styles.title}>Últimas movimentações</Text>
 
@@ -69,5 +69,5 @@ const styles = StyleSheet.create({
   list: {
     marginStart: 14,
     marginEnd: 14
-  },
+  }
 })
